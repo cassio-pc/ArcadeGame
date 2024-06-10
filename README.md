@@ -3,7 +3,7 @@ Projeto realizado para a disciplina de Programação Orientada a Objetos.
 Alunos:
 - Anlee Feng Chang - n° USP 12563690
 - Cássio Perpétuo da Cunha - n° USP
-- Diego Soares da Paz - n° USP
+- Diego Soares da Paz - n° USP 8936415
   
 Objetivo:
 Projetar e desenvolver um jogo arcade multiplayer chamado "Java Invaders" incluindo elementos de GUI, lidar com entrada do usuário e implementar os conceitos de Programação Orientada a Objetos ensinados na dsciplina, como conceitos básicos de programação Java, tratamento de exceções e E/S de arquivos.
