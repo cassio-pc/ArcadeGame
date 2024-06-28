@@ -121,13 +121,12 @@ Alunos:
 Nota: caso não consiga rodar no jogo na IDE que já tem intalada, aconselhamos seguir as instruções a seguir para instalar a plataforma que utilizamos.
 
 6.1. Instale o NetBeans
-  Através do link https://netbeans.apache.org/front/main/download/nb22/ instale o NetBeans para o seu sistema operacional. As instruções estão todas nesse link, mas reforçamos que 
+- Através do link https://netbeans.apache.org/front/main/download/nb22/ instale o NetBeans para o seu sistema operacional. As instruções estão todas nesse link, mas reforçamos que 
 a instalação do Apache NetBeans 22 requerer JDK 17 ou superior e suportam oficialmente a execução em JDK 17, 21 e 22, portanto é necessário baixá-lo pelo site da Oracle: https://www.oracle.com/java/technologies/downloads/.
 
 6.2. Abrir o projeto
-  Agora, no GitHub, faça o download em .zip do projeto, para isso clique no botão verde "Code" e em seguida em "Download ZIP". Nos seu Explorador de Arquivos extraia o .zip.
-  
-  Após tudo instalado, abra o projeto no NetBeans, no canto direito superior em "Files" terá a opção "Open project", abra a pasta baixada anteriormente no GitHub.
+- Agora, no GitHub, faça o download em .zip do projeto, para isso clique no botão verde "Code" e em seguida em "Download ZIP". Nos seu Explorador de Arquivos extraia o .zip.
+- Após tudo instalado, abra o projeto no NetBeans, no canto direito superior em "Files" terá a opção "Open project", abra a pasta baixada anteriormente no GitHub.
 
 
 # 7. Problemas
