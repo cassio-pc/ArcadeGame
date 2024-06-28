@@ -83,12 +83,12 @@ Alunos:
 - O método run de SpaceInvaders mantém o loop ativo, chamando update e repaint continuamente.
 
 3.2.3. Atualização do Jogo:
-- SpaceInvaders chama o método update, que atualiza a posição do jogador, alienígenas e projéteis.
+- SpaceInvaders chama o método update, que atualiza a posição dos jogadores, alienígenas e projéteis.
 - Verifica colisões entre projéteis e jogadores ou alienígenas.
 - Remove projéteis fora da tela e verifica condições de game over.
 
 3.2.4. Desenho na Tela:
-- SpaceInvaders chama o método paintComponent para desenhar o jogador, alienígenas e projéteis na tela.
+- SpaceInvaders chama o método paintComponent para desenhar os jogadores, alienígenas e projéteis na tela.
 - Diferentes estados do jogo (START, RUNNING, GAME_OVER) exibem diferentes informações na tela.
 
 3.2.5. Controle do Jogador:
@@ -117,7 +117,7 @@ Alunos:
 - A dificuldade aumenta corretamente conforme o nível vai aumentando.
 
 # 6. Como rodar 
-  Para executar o jogo é necssário baixar uma IDE que suporte Java. Caso já tenha instalado em seu dispositivo, pule a instução de intalação. 
+  Para executar o jogo é necessário baixar uma IDE que suporte Java. Caso já tenha instalado em seu dispositivo, pule a instução de intalação. 
 Nota: caso não consiga rodar no jogo na IDE que já tem intalada, aconselhamos seguir as instruções a seguir para instalar a plataforma que utilizamos.
 
 6.1. Instale o NetBeans
@@ -133,6 +133,7 @@ a instalação do Apache NetBeans 22 requerer JDK 17 ou superior e suportam ofic
 
 - Dificuldade inicial com a implementação de colisões. 
 - Garantir que o aumento de dificuldade fosse perceptível mas não impossível.
+
 
 # 8. Comentários
 
