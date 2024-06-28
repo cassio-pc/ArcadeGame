@@ -125,8 +125,10 @@ Nota: caso não consiga rodar no jogo na IDE que já tem intalada, aconselhamos 
 a instalação do Apache NetBeans 22 requerer JDK 17 ou superior e suportam oficialmente a execução em JDK 17, 21 e 22, portanto é necessário baixá-lo pelo site da Oracle: https://www.oracle.com/java/technologies/downloads/.
 
 6.2. Abrir o projeto
-  Agora, 
-  Após tudo instalado, abra o projeto no Netbeans, no cando direito superior em "Files" terá a opção "Open project".
+  Agora, no GitHub, faça o download em .zip do projeto, para isso clique no botão verde "Code" e em seguida em "Download ZIP". Nos seu Explorador de Arquivos extraia o .zip.
+  
+  Após tudo instalado, abra o projeto no NetBeans, no canto direito superior em "Files" terá a opção "Open project", abra a pasta baixada anteriormente no GitHub.
+
 
 # 7. Problemas
 
