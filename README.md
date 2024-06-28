@@ -2,7 +2,7 @@
 Projeto realizado para a disciplina de Programação Orientada a Objetos.
 Alunos:
 - Anlee Feng Chang - n° USP 12563690
-- Cássio Perpétuo da Cunha - n° USP
+- Cássio Perpétuo da Cunha - n° USP 8538501
 - Diego Soares da Paz - n° USP 8936415
   
 # 1. Requerimentos
