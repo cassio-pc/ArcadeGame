@@ -5,7 +5,7 @@ Alunos:
 - Cássio Perpétuo da Cunha - n° USP
 - Diego Soares da Paz - n° USP 8936415
   
-# 1. Requirements
+# 1. Requerimentos
 - Criar a interface gráfica do usuário (GUI), que deve incluir opções para iniciar um novo jogo, continuar um jogo salvo e sair.
 - Os jogadores controlam uma nave espacial usando o teclado, podendo mover para a esquerda, direita e disparar projéteis.
 - Alienígenas aparecem em formações e se movem em direção à nave do jogador, soltando bombas ocasionalmente.
@@ -27,9 +27,9 @@ Alunos:
 
   2.1. Fluxo do Jogo
 - Tela de Início: O jogo começa na tela de início, onde o jogador pode pressionar ENTER para começar.
-- Jogo Rodando: Durante o jogo, o jogador pode se mover para a esquerda e direita usando as setas do teclado e atirar com a barra de espaço.
-- Colisões: O jogo verifica colisões entre projéteis e alienígenas ou o jogador. Se o jogador é atingido, perde uma vida.
-- Fim de Jogo: Quando as vidas do jogador chegam a zero ou um alienígena atinge a parte inferior da tela, o jogo termina e a tela de game over é exibida.
+- Jogo Rodando: Durante o jogo, os jogadores pode se mover para a esquerda e direita usando as setas do teclado e as teclas "A" e "D", e atirar com a barra de espaço.
+- Colisões: O jogo verifica colisões entre projéteis e alienígenas ou com os jogadores. Se um jogador é atingido, perde uma vida.
+- Fim de Jogo: Quando as vidas de um dos jogadores chega a zero ou um alienígena atinge a parte inferior da tela, o jogo termina e a tela de game over é exibida.
 
 # 3. Comentários sobre o código
 
@@ -82,54 +82,58 @@ Alunos:
 - SpaceInvaders inicia o loop do jogo quando start é chamado.
 - O método run de SpaceInvaders mantém o loop ativo, chamando update e repaint continuamente.
 
-
 3.2.3. Atualização do Jogo:
 - SpaceInvaders chama o método update, que atualiza a posição do jogador, alienígenas e projéteis.
 - Verifica colisões entre projéteis e jogadores ou alienígenas.
 - Remove projéteis fora da tela e verifica condições de game over.
 
-
 3.2.4. Desenho na Tela:
 - SpaceInvaders chama o método paintComponent para desenhar o jogador, alienígenas e projéteis na tela.
 - Diferentes estados do jogo (START, RUNNING, GAME_OVER) exibem diferentes informações na tela.
-
 
 3.2.5. Controle do Jogador:
 - SpaceInvaders implementa KeyListener para detectar entrada do teclado.
 - Movimentos e ações do jogador são processados e atualizados através dos métodos keyPressed e keyReleased de Player.
 
-
 3.2.6. Aumento de Dificuldade:
 - Quando todos os alienígenas são eliminados, SpaceInvaders chama increaseDifficulty da enumeração Difficulty e reinicializa os alienígenas com maior dificuldade.
 
-
 # 4. Plano de testes
 
-- Testar o movimento do jogador para a esquerda e direita.
-- Testar o disparo de projéteis pelo jogador.
-- Testar a colisão de projéteis do jogador com os alienígenas.
-- Testar a colisão de projéteis dos alienígenas com o jogador.
+- Testar os movimentos dos jogadores para a esquerda e direita.
+- Testar o disparo de projéteis pelos jogadores.
+- Testar a colisão de projéteis dos jogadores com os alienígenas.
+- Testar a colisão de projéteis dos alienígenas com os jogadores.
 - Verificar se o jogo reinicia corretamente após o game over.
 - Verificar se a dificuldade aumenta conforme os alienígenas são eliminados.
  
 # 5.Resultados dos teste
 
-- Movimento do jogador funcionando corretamente.
-- Disparo de projéteis pelo jogador funcionando conforme esperado.
-- Colisões entre projéteis do jogador e alienígenas detectadas corretamente.
-- Colisões entre projéteis dos alienígenas e o jogador funcionando corretamente.
+- Movimento dos jogadores funcionando corretamente.
+- Disparo de projéteis pelos jogadores funcionando conforme esperado.
+- Colisões entre projéteis dos jogadores e alienígenas detectadas corretamente.
+- Colisões entre projéteis dos alienígenas e os jogadores funcionando corretamente.
 - Jogo reinicia corretamente após o game over.
-- A dificuldade aumenta corretamente conforme os alienígenas são eliminados.
+- A dificuldade aumenta corretamente conforme o nível vai aumentando.
 
-# 6. Build Procedures: 
-A step-by-step guide to run your code. You should start telling how to install whatever software you need, then how to download/build your program, and finally how to set up the environment to run it. Imagine that someone installing will just follow these commands (nothing more).
+# 6. Como rodar 
+  Para executar o jogo é necssário baixar uma IDE que suporte Java. Caso já tenha instalado em seu dispositivo, pule a instução de intalação. 
+Nota: caso não consiga rodar no jogo na IDE que já tem intalada, aconselhamos seguir as instruções a seguir para instalar a plataforma que utilizamos.
 
-# 7. Problems
+6.1. Instale o NetBeans
+  Através do link https://netbeans.apache.org/front/main/download/nb22/ instale o NetBeans para o seu sistema operacional. As instruções estão todas nesse link, mas reforçamos que 
+a instalação do Apache NetBeans 22 requerer JDK 17 ou superior e suportam oficialmente a execução em JDK 17, 21 e 22, portanto é necessário baixá-lo pelo site da Oracle: https://www.oracle.com/java/technologies/downloads/.
+
+6.2. Abrir o projeto
+  Agora, 
+  Após tudo instalado, abra o projeto no Netbeans, no cando direito superior em "Files" terá a opção "Open project".
+
+# 7. Problemas
 
 - Dificuldade inicial com a implementação de colisões. 
 - Garantir que o aumento de dificuldade fosse perceptível mas não impossível.
 
-# 8. Comments
+# 8. Comentários
 
 - O projeto foi uma excelente oportunidade para aplicar conhecimentos de Java e programação orientada a objetos.
 - Utilizar Swing para a interface gráfica facilitou a criação de uma experiência de jogo visualmente atraente.
